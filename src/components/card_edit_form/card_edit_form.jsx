@@ -19,7 +19,7 @@ const CardEditForm = ({FileInput, card, updateCard, deleteCard }) => {
         });
     }
 
-    const { name, company, title, email, message, theme, fileName, fileURL } = card;
+    const { name, company, title, email, message, theme, fileName } = card;
     const onChange = (event) =>{
         if(event.currentTarget == null){
             return;
